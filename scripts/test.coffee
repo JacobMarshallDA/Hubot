@@ -16,3 +16,6 @@ module.exports = (robot) ->
        msg.reply "I'm afraid I can't let you do that."
      else
        msg.reply "Opening #{doorType} doors"
+
+  robot.respond /i need a (coffee|tea)/i, (msg) ->
+     msg.send "C'mon @mrad01... chop chop, on your feet!"
