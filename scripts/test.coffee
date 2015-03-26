@@ -11,11 +11,15 @@
 module.exports = (robot) ->
 
   robot.respond /open the (.*) doors/i, (msg) ->
-     doorType = msg.match[1]
-     if doorType is "pod bay"
-       msg.reply "I'm afraid I can't let you do that."
-     else
-       msg.reply "Opening #{doorType} doors"
+    doorType = msg.match[1]
+    if doorType is "pod bay"
+      msg.reply "I'm afraid I can't let you do that."
+    else
+      msg.reply "Opening #{doorType} doors"
 
-  robot.respond /i need a (coffee|tea)/i, (msg) ->
-     msg.send "C'mon @mrad01... chop chop, on your feet!"
+  robot.respond /i (need|want|feel for|could do with|fancy) a (coffee|tea)/i, (msg) ->
+    msg.send "C'mon @mrad01... chop chop, on your feet!"
+
+  robot.respond /(fuck off|get lost|die|shutdown|exit|terminate)/i, (res) ->
+    res.send 'Bye!'
+    do res.robot.shutdown
