@@ -23,3 +23,12 @@ module.exports = (robot) ->
   robot.respond /(fuck off|get lost|die|shutdown|exit|terminate)/i, (res) ->
     res.send 'Bye!'
     do res.robot.shutdown
+
+  robot.router.post '/hubot/git/webhook/:secret', (req, res) ->
+    return unless req.params.secret is process.env.GIT_WEBHOOK_SECRET
+
+    message = "[debug] message from git webhook: " + JSON.stringify req.body
+    robot.messageRoom process.env.GIT_WEBHOOK_ROOM, message
+
+    res.writeHead 200, 'Content-Type': 'application/json'
+    res.end JSON.stringify result: 'success'
