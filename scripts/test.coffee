@@ -25,8 +25,11 @@ module.exports = (robot) ->
     do res.robot.shutdown
 
   robot.router.post '/hubot/git/webhook/:secret', (req, res) ->
+
     unless req.params.secret is process.env.GIT_WEBHOOK_SECRET
-      return do res.end
+      res.writeHead 401, 'Content-Type': 'application/json'
+      res.end JSON.stringify result: 'unauthorized'
+      return
 
     message = "[debug] message from git webhook: " + JSON.stringify req.body
     robot.messageRoom process.env.GIT_WEBHOOK_ROOM, message
