@@ -38,6 +38,7 @@ module.exports = (robot) ->
       res.end JSON.stringify
         result: 'error'
         error: err
+      return
 
     res.writeHead 200, 'Content-Type': 'application/json'
     res.end JSON.stringify result: 'success'
