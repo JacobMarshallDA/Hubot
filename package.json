@@ -24,7 +24,7 @@
     "hubot-humanity": "^0.1.3",
     "hubot-meowme": ">= 0.0.1",
     "hubot-victory": ">= 0.0.0",
-    "hubot-devopsreactions": ">= 0.1.1"
+    "hubot-wiki": ">= 0.0.2"
   },
   "engines": {
     "node": "0.10.x"
