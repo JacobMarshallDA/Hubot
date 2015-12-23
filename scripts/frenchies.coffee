@@ -14,6 +14,16 @@ frenchbulldogs = [
   "http://hellogiggles.com/wp-content/uploads/2014/10/16/frenchbulldog.jpg",
   "https://s-media-cache-ak0.pinimg.com/736x/3e/de/52/3ede52aa092642733ea9c1de8c9ec3cf.jpg",
   "https://www.expatads.com/adpics1/2015/10/Lovely-French-Bulldog-Puppy-56130d75277f258fb1b4.jpg",
+  "http://i.dailymail.co.uk/i/pix/2013/11/05/article-0-1933C07700000578-760_306x423.jpg",
+  "https://i.ytimg.com/vi/sVqTQqnds20/maxresdefault.jpg",
+  "http://www.frenchiefever.com/wordpress/wp-content/uploads/2012/01/french-bulldog-health.jpg",
+  "http://www.dogwallpapers.net/wallpapers/french-bulldog-with-a-ball-photo.jpg",
+  "http://i.imgur.com/8Nzy9zL.png",
+  "http://www.warrenphotographic.co.uk/photography/bigs/35754-Dark-brindle-French-Bulldog-pup-white-background.jpg",
+  "https://s3-eu-west-1.amazonaws.com/bowwowtimes-new/wp-content/uploads/2015/03/Frugg.jpg",
+  "http://www.littlestarsweb.com/bull/files/french-bulldog-girl[2].jpg",
+  "http://www.french-bulldog.com/attachments/Image/News/Colour.jpg",
+  "http://d3s5vyi2vl8slq.cloudfront.net/wp-content/uploads/2015/09/October-26-2005-100groupstoopcrop.jpg",
 ]
 
 module.exports = (robot) ->
