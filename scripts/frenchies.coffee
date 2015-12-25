@@ -37,9 +37,6 @@ frenchbulldogs = [
 
 module.exports = (robot) ->
 
-  robot.hear /frenchie/i, (msg) ->
-    msg.send msg.random frenchbulldogs
-
   robot.hear /frenchiebomb/i, (msg) ->
     msg.send msg.random frenchbulldogs
     msg.send msg.random frenchbulldogs
