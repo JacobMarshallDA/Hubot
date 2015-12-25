@@ -24,11 +24,27 @@ frenchbulldogs = [
   "http://www.littlestarsweb.com/bull/files/french-bulldog-girl[2].jpg",
   "http://www.french-bulldog.com/attachments/Image/News/Colour.jpg",
   "http://d3s5vyi2vl8slq.cloudfront.net/wp-content/uploads/2015/09/October-26-2005-100groupstoopcrop.jpg",
+  "http://www.frenchbulldogbreed.net/files/French-Bulldog-pros-and-cons-000.jpg"
+  "http://dogmagz.com/wp-content/uploads/2015/03/french-bulldog.jpg",
+  "http://images5.alphacoders.com/431/431480.jpg",
+  "https://s-media-cache-ak0.pinimg.com/236x/6c/59/ca/6c59caa59912bf4fc7f72bc70779ae88.jpg",
+  "https://s-media-cache-ak0.pinimg.com/736x/52/fd/2b/52fd2b86699f228ffcd80eed2abe6c0c.jpg",
+  "http://i.dailymail.co.uk/i/pix/2014/04/29/article-2615513-1D6E57D000000578-997_634x607.jpg",
+  "http://dingo.care2.com/pictures/causes/3107/3106298.large.jpg",
+  "https://i.ytimg.com/vi/O80E1RdDghE/maxresdefault.jpg",
+  "http://cache.lovethispic.com/uploaded_images/169838-Black-And-White-French-Bulldog.jpg",
 ]
 
 module.exports = (robot) ->
 
   robot.hear /frenchie/i, (msg) ->
+    msg.send msg.random frenchbulldogs
+
+  robot.hear /frenchiebomb/i, (msg) ->
+    msg.send msg.random frenchbulldogs
+    msg.send msg.random frenchbulldogs
+    msg.send msg.random frenchbulldogs
+    msg.send msg.random frenchbulldogs
     msg.send msg.random frenchbulldogs
 
   robot.router.post '/hubot/git/webhook/:secret', (req, res) ->
