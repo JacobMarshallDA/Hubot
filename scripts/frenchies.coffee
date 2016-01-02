@@ -24,7 +24,6 @@ frenchbulldogs = [
   "http://www.littlestarsweb.com/bull/files/french-bulldog-girl[2].jpg",
   "http://www.french-bulldog.com/attachments/Image/News/Colour.jpg",
   "http://d3s5vyi2vl8slq.cloudfront.net/wp-content/uploads/2015/09/October-26-2005-100groupstoopcrop.jpg",
-  "http://www.frenchbulldogbreed.net/files/French-Bulldog-pros-and-cons-000.jpg"
   "http://dogmagz.com/wp-content/uploads/2015/03/french-bulldog.jpg",
   "http://images5.alphacoders.com/431/431480.jpg",
   "https://s-media-cache-ak0.pinimg.com/236x/6c/59/ca/6c59caa59912bf4fc7f72bc70779ae88.jpg",
@@ -33,6 +32,15 @@ frenchbulldogs = [
   "http://dingo.care2.com/pictures/causes/3107/3106298.large.jpg",
   "https://i.ytimg.com/vi/O80E1RdDghE/maxresdefault.jpg",
   "http://cache.lovethispic.com/uploaded_images/169838-Black-And-White-French-Bulldog.jpg",
+  "http://www.frenchbulldogbreed.net/files/Training-your-Frenchie-to-come-when-called-00.jpg",
+"http://www.frenchbulldogbreed.net/files/Tips-to-keep-your-French-Bulldog%E2%80%99s-coat-shiny-and-healthy-00.jpg",
+"http://www.frenchbulldogbreed.net/files/Bringing-French-Bulldog-puppy-home-000.jpg",
+"http://www.frenchbulldogbreed.net/files/Bringing-French-Bulldog-puppy-home-01.jpg",
+"http://www.lovethispic.com/uploaded_images/86103-Cute-French-Bulldog.jpg",
+"http://buzzsharer.com/wp-content/uploads/2015/06/French-Bulldog-playing.jpg",
+"http://buzzsharer.com/wp-content/uploads/2015/06/French-Bulldog-cute-toy.jpg",
+"http://buzzsharer.com/wp-content/uploads/2015/06/French-Bulldog-and-his-Piggy.jpg",
+"http://2.bp.blogspot.com/-bj4rl8B_aMo/T-w_5mGoLUI/AAAAAAAADRk/9Y9rwYr7WZc/s320/French+Bulldog+Puppies.jpg",
 ]
 
 module.exports = (robot) ->
